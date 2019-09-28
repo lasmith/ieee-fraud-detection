@@ -1,0 +1,202 @@
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 6.0, 'learning_rate': 0.38214701126985373, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9752255782191075, AUC: 0.7068849798979505, F1: 0.540776094625441, MCC: 0.554671468597713
+Params: {'depth': 7.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 5.0, 'learning_rate': 0.41259684270951374, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9754382822470501, AUC: 0.721078836859897, F1: 0.5596146126053794, MCC: 0.5668029790064719
+Params: {'depth': 4.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.1876331735386023, 'loss_function': 'Logloss'}
+Accuracy score: 0.9753935024516938, AUC: 0.699388463640332, F1: 0.5329366765830853, MCC: 0.5528632087646062
+Params: {'depth': 5.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 5.0, 'learning_rate': 0.4644615965747169, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9754718670935674, AUC: 0.7149056145176141, F1: 0.5527658705858338, MCC: 0.5633730395535738
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 5.0, 'learning_rate': 0.013199337629214918, 'loss_function': 'Logloss'}
+Accuracy score: 0.9751919933725903, AUC: 0.6771525986291027, F1: 0.5006759801712483, MCC: 0.537811919812406
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.1824566196664955, 'loss_function': 'Logloss'}
+Accuracy score: 0.9767033114658666, AUC: 0.7240556810546127, F1: 0.5752194325372525, MCC: 0.5873598525953703
+Params: {'depth': 6.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.43797791438830547, 'loss_function': 'Logloss'}
+Accuracy score: 0.9750688489353604, AUC: 0.7049465983110268, F1: 0.5369099604907465, MCC: 0.551061587667737
+Params: {'depth': 5.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 7.0, 'learning_rate': 0.4109511678756239, 'loss_function': 'Logloss'}
+Accuracy score: 0.9752591630656248, AUC: 0.7106167516552897, F1: 0.545641447368421, MCC: 0.5575123513713653
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.1453110091146787, 'loss_function': 'Logloss'}
+Accuracy score: 0.9759308599959698, AUC: 0.708024185931584, F1: 0.5488879563575325, MCC: 0.5664304070111252
+Params: {'depth': 6.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.49252031480961944, 'loss_function': 'Logloss'}
+Accuracy score: 0.975830105456418, AUC: 0.7123054239402258, F1: 0.5530945973918443, MCC: 0.5672503079400122
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.10510861333503606, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.976613751875154, AUC: 0.7178186624890663, F1: 0.5672260203024654, MCC: 0.5826466980983198
+Params: {'depth': 10.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.19857286428026374, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9760316145355216, AUC: 0.709624038169593, F1: 0.5518107598911451, MCC: 0.5689314655841005
+Params: {'depth': 9.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.38696059961010015, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9757517408145445, AUC: 0.7142767782700894, F1: 0.5546875, MCC: 0.5672006122910773
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.30438286727863934, 'loss_function': 'Logloss'}
+Accuracy score: 0.9757853256610617, AUC: 0.7119726942479713, F1: 0.552266611467605, MCC: 0.5663613008817409
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.3185016713001089, 'loss_function': 'Logloss'}
+Accuracy score: 0.9763226832053378, AUC: 0.7254061480562278, F1: 0.5729860690490612, MCC: 0.5823395553280445
+Params: {'depth': 5.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.4549332290920686, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9751919933725903, AUC: 0.7070223464607761, F1: 0.5406301824212272, MCC: 0.5542435150876313
+Params: {'depth': 5.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.08942332941508016, 'loss_function': 'Logloss'}
+Accuracy score: 0.9758748852517743, AUC: 0.7138762778949331, F1: 0.5553950897462347, MCC: 0.5688552827021256
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.314064939273402, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9757741307122226, AUC: 0.7209432954940937, F1: 0.5626515763945028, MCC: 0.5715709524068053
+Params: {'depth': 9.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.2130080990778849, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9761547589727515, AUC: 0.7189737663612523, F1: 0.5640605812525583, MCC: 0.5760967078273036
+Params: {'depth': 9.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 5.0, 'learning_rate': 0.21268866272363798, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9765689720797976, AUC: 0.7229027264450427, F1: 0.5725954666122115, MCC: 0.5846583495626616
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.2834077315710793, 'loss_function': 'Logloss'}
+Accuracy score: 0.9758077155587399, AUC: 0.7164724940126833, F1: 0.5578064252097402, MCC: 0.5693587468851766
+Params: {'depth': 10.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.3381196912926382, 'loss_function': 'Logloss'}
+Accuracy score: 0.9758524953540962, AUC: 0.7123170232535465, F1: 0.5533236694967901, MCC: 0.567605500753666
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.25528237760090877, 'loss_function': 'Logloss'}
+Accuracy score: 0.975550231735441, AUC: 0.7067436388754867, F1: 0.5436690346844965, MCC: 0.5596304149268677
+Params: {'depth': 9.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.036908859502658126, 'loss_function': 'Logloss'}
+Accuracy score: 0.9764010478472114, AUC: 0.7126012064299024, F1: 0.5589958158995816, MCC: 0.5765017803998439
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.14870028579592262, 'loss_function': 'Logloss'}
+Accuracy score: 0.9756397913261536, AUC: 0.7035399599398309, F1: 0.5405405405405406, MCC: 0.5592264691387455
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.25002874720171014, 'loss_function': 'Logloss'}
+Accuracy score: 0.975415892349372, AUC: 0.7151861472999257, F1: 0.5525672371638142, MCC: 0.5627206138251231
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.3392779416989631, 'loss_function': 'Logloss'}
+Accuracy score: 0.9751919933725903, AUC: 0.7016055528125452, F1: 0.5338662179217502, MCC: 0.5509200725179775
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.0723207995505274, 'loss_function': 'Logloss'}
+Accuracy score: 0.9763786579495332, AUC: 0.7110419517885158, F1: 0.5569088618227636, MCC: 0.5753313421662003
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.1523671044582799, 'loss_function': 'Logloss'}
+Accuracy score: 0.9762219286657859, AUC: 0.7089488046687855, F1: 0.5528421052631579, MCC: 0.571671269246511
+Params: {'depth': 9.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.35284429457230815, 'loss_function': 'Logloss'}
+Accuracy score: 0.9759084700982916, AUC: 0.7157508632585934, F1: 0.5579293344289236, MCC: 0.5704640400247547
+Params: {'depth': 10.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.2501146565084346, 'loss_function': 'Logloss'}
+Accuracy score: 0.9761995387681078, AUC: 0.7137349368724694, F1: 0.558371416701288, MCC: 0.5738623373048315
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.3668666368559461, 'loss_function': 'Logloss'}
+Accuracy score: 0.9761883438192688, AUC: 0.7265746764387567, F1: 0.5729773137924111, MCC: 0.5810454647490856
+Params: {'depth': 4.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 6.0, 'learning_rate': 0.39124382127111995, 'loss_function': 'Logloss'}
+Accuracy score: 0.9751024337818777, AUC: 0.7054282938794274, F1: 0.5378221113881961, MCC: 0.5518780567813153
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.36656864146152174, 'loss_function': 'Logloss'}
+Accuracy score: 0.9754942569912456, AUC: 0.7130600274372556, F1: 0.5507900677200903, MCC: 0.5625640597460505
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.4879725026514679, 'loss_function': 'Logloss'}
+Accuracy score: 0.9748673398562568, AUC: 0.7006635351053628, F1: 0.5296459249947622, MCC: 0.5452558745434523
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.4159456835813016, 'loss_function': 'Logloss'}
+Accuracy score: 0.9750912388330385, AUC: 0.6996961695089231, F1: 0.5304916649082085, MCC: 0.5481683276539369
+Params: {'depth': 4.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.27370220270536516, 'loss_function': 'Logloss'}
+Accuracy score: 0.975158408526073, AUC: 0.7034453402362434, F1: 0.5358711566617863, MCC: 0.5515118535696687
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 6.0, 'learning_rate': 0.43387603803826547, 'loss_function': 'Logloss'}
+Accuracy score: 0.9750800438841994, AUC: 0.7094405984190785, F1: 0.5425400739827374, MCC: 0.554088817803257
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.31483428035833366, 'loss_function': 'Logloss'}
+Accuracy score: 0.9753487226563374, AUC: 0.7171633012864496, F1: 0.554251012145749, MCC: 0.5629958349026518
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.4687541052029102, 'loss_function': 'Logloss'}
+Accuracy score: 0.9749233146004522, AUC: 0.7116808862179329, F1: 0.5437881873727087, MCC: 0.5532522318326121
+Params: {'depth': 5.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 5.0, 'learning_rate': 0.2270154816318429, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9754942569912456, AUC: 0.7088813580514775, F1: 0.5457563809919072, MCC: 0.5600238823052688
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.2871662666068157, 'loss_function': 'Logloss'}
+Accuracy score: 0.9763898528983722, AUC: 0.7177026693558599, F1: 0.564885496183206, MCC: 0.5790324889713677
+Params: {'depth': 6.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 7.0, 'learning_rate': 0.17521040082048883, 'loss_function': 'Logloss'}
+Accuracy score: 0.9759644448424871, AUC: 0.709589240229631, F1: 0.5511185448463308, MCC: 0.5678330589357143
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.41105271200709914, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9752255782191075, AUC: 0.7010038896512998, F1: 0.5334176681425258, MCC: 0.5510927667842666
+Params: {'depth': 5.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.37227899069277115, 'loss_function': 'Logloss'}
+Accuracy score: 0.9760092246378435, AUC: 0.7125529839795977, F1: 0.5551172929209051, MCC: 0.5701957593737874
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.32748782288687067, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9755054519400846, AUC: 0.7181730896765337, F1: 0.5569056298096395, MCC: 0.5659172538838172
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.39607071198620464, 'loss_function': 'Logloss'}
+Accuracy score: 0.9761435640239124, AUC: 0.7081343794081302, F1: 0.551084895723615, MCC: 0.5699561262977182
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.4987716220763241, 'loss_function': 'Logloss'}
+Accuracy score: 0.9755950115307973, AUC: 0.7242553427092736, F1: 0.5646964856230031, MCC: 0.5710718654688351
+Params: {'depth': 9.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.43476408831346824, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.975695766070349, AUC: 0.7074380965432973, F1: 0.5459108973018196, MCC: 0.5623356572960075
+Params: {'depth': 7.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.12342686439291672, 'loss_function': 'Logloss'}
+Accuracy score: 0.9759084700982916, AUC: 0.7041434482980984, F1: 0.5438745231030098, MCC: 0.5639650126194033
+Params: {'depth': 5.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.3000868760320322, 'loss_function': 'Logloss'}
+Accuracy score: 0.9756174014284754, AUC: 0.7132785891933258, F1: 0.5522203947368421, MCC: 0.564558359312974
+Params: {'depth': 4.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.4666000278910165, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9755166468889237, AUC: 0.7161669374067082, F1: 0.5546731826511913, MCC: 0.5648230447505879
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.22635800506809686, 'loss_function': 'Logloss'}
+Accuracy score: 0.9762779034099814, AUC: 0.7134660034034784, F1: 0.5588174057880492, MCC: 0.5749675081634247
+Params: {'depth': 10.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 5.0, 'learning_rate': 0.35061140017068865, 'loss_function': 'Logloss'}
+Accuracy score: 0.9761323690750733, AUC: 0.7039499103656919, F1: 0.5458031529612272, MCC: 0.5676157940646341
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.0034856800073935212, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9718558986185433, AUC: 0.6085655907718753, F1: 0.3507231404958678, MCC: 0.43420251851700653
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.45033793016958557, 'loss_function': 'Logloss'}
+Accuracy score: 0.9750800438841994, AUC: 0.7117620814111774, F1: 0.5453431372549019, MCC: 0.5555898639133773
+Params: {'depth': 9.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 5.0, 'learning_rate': 0.26512421756501847, 'loss_function': 'Logloss'}
+Accuracy score: 0.9764234377448895, AUC: 0.720351082383553, F1: 0.5682656826568266, MCC: 0.5810068079828635
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.17023412093973603, 'loss_function': 'Logloss'}
+Accuracy score: 0.9761435640239124, AUC: 0.7092177381377764, F1: 0.552404956941819, MCC: 0.5705281388047676
+Params: {'depth': 5.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.3714407373907264, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9741620580793946, AUC: 0.7232034555911387, F1: 0.5502727981293842, MCC: 0.5510442475140562
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.19918543858874993, 'loss_function': 'Logloss'}
+Accuracy score: 0.9762667084611424, AUC: 0.7176388731325962, F1: 0.5636064223960477, MCC: 0.5770706134390223
+Params: {'depth': 7.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.23658947822016346, 'loss_function': 'Logloss'}
+Accuracy score: 0.9762890983588205, AUC: 0.7157932860522377, F1: 0.5616721854304636, MCC: 0.5764048489120472
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.03799609242832816, 'loss_function': 'Logloss'}
+Accuracy score: 0.9763226832053378, AUC: 0.7124058433004735, F1: 0.5579937304075234, MCC: 0.575126061658538
+Params: {'depth': 9.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.30404069259327304, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9760204195866825, AUC: 0.7144159700299372, F1: 0.5574380165289257, MCC: 0.5714231622991326
+Params: {'depth': 5.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.4833850241106865, 'loss_function': 'Logloss'}
+Accuracy score: 0.9726395450372792, AUC: 0.7032237762173162, F1: 0.5131474103585657, MCC: 0.5159181749835485
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.32569674976146573, 'loss_function': 'Logloss'}
+Accuracy score: 0.9755838165819583, AUC: 0.707380099976694, F1: 0.5447714464621164, MCC: 0.5605317604953798
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.49582553857401335, 'loss_function': 'Logloss'}
+Accuracy score: 0.975147213577234, AUC: 0.7147374244744646, F1: 0.549512987012987, MCC: 0.5585067854262115
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.4246344217464421, 'loss_function': 'Logloss'}
+Accuracy score: 0.975292747912142, AUC: 0.7106341506252708, F1: 0.5459781937872866, MCC: 0.5580273719927678
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.39834459215353213, 'loss_function': 'Logloss'}
+Accuracy score: 0.9761771488704296, AUC: 0.7165091171496675, F1: 0.5614179719703215, MCC: 0.5750454323024765
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.3585614856327358, 'loss_function': 'Logloss'}
+Accuracy score: 0.9756733761726709, AUC: 0.7037121244426184, F1: 0.541077085533263, MCC: 0.5598689132440887
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.4498685576631142, 'loss_function': 'Logloss'}
+Accuracy score: 0.9752367731679467, AUC: 0.7234506915649167, F1: 0.5604133545310016, MCC: 0.565529116946879
+Params: {'depth': 4.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.33803051562193764, 'loss_function': 'Logloss'}
+Accuracy score: 0.9748561449074178, AUC: 0.6994196111862496, F1: 0.5279529213955444, MCC: 0.5442956892503433
+Params: {'depth': 5.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.2919649434025776, 'loss_function': 'Logloss'}
+Accuracy score: 0.9758413004052572, AUC: 0.7129302857281125, F1: 0.5539479123604795, MCC: 0.5677863601224552
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.37683562272280857, 'loss_function': 'Logloss'}
+Accuracy score: 0.9750128741911649, AUC: 0.7001198685107207, F1: 0.5303030303030304, MCC: 0.5471877140816432
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.27679207822368135, 'loss_function': 'Logloss'}
+Accuracy score: 0.9751696034749121, AUC: 0.6867364623497911, F1: 0.514022787028922, MCC: 0.5421046664330419
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.40363574244850176, 'loss_function': 'Logloss'}
+Accuracy score: 0.975550231735441, AUC: 0.7089103563347792, F1: 0.5463232239302036, MCC: 0.5609086990069134
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.3159255084157471, 'loss_function': 'Logloss'}
+Accuracy score: 0.9756174014284754, AUC: 0.7103380440700005, F1: 0.5486945710733526, MCC: 0.5627977553408315
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.3426861115738219, 'loss_function': 'Logloss'}
+Accuracy score: 0.975550231735441, AUC: 0.7126247291221375, F1: 0.5508021390374331, MCC: 0.5631430226345776
+Params: {'depth': 5.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.48176674462022384, 'loss_function': 'Logloss'}
+Accuracy score: 0.9752479681167857, AUC: 0.7172658699093133, F1: 0.5534235507978186, MCC: 0.5616081016726545
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 2.0, 'learning_rate': 0.42195394524049606, 'loss_function': 'Logloss'}
+Accuracy score: 0.975550231735441, AUC: 0.7014816107600623, F1: 0.5370919881305639, MCC: 0.5566114421117808
+Params: {'depth': 8.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.38213213422014586, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9753151378098202, AUC: 0.7018241145686154, F1: 0.5353003161222338, MCC: 0.5530085157263095
+Params: {'depth': 7.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.26321287866691695, 'loss_function': 'Logloss'}
+Accuracy score: 0.975953249893648, AUC: 0.7069524265152585, F1: 0.5477894736842106, MCC: 0.5662092995801525
+Params: {'depth': 6.0, 'eval_metric': 'AUC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.2380014078910563, 'loss_function': 'Logloss'}
+Accuracy score: 0.9756733761726709, AUC: 0.7150100083375, F1: 0.5548043433722598, MCC: 0.566452065486012
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.49994026233522537, 'loss_function': 'Logloss'}
+Accuracy score: 0.9758972751494526, AUC: 0.7250309955703288, F1: 0.5684505913008618, MCC: 0.5758806357775053
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.13347680345662982, 'loss_function': 'Logloss'}
+Accuracy score: 0.9764794124890849, AUC: 0.7137251627561708, F1: 0.5611029872571548, MCC: 0.5783589405526663
+Params: {'depth': 9.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 6.0, 'learning_rate': 0.20488817780906976, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9765913619774758, AUC: 0.7159498767820666, F1: 0.5648283038501561, MCC: 0.5813203430759484
+Params: {'depth': 10.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.4408794014142947, 'loss_function': 'Logloss'}
+Accuracy score: 0.9747889752143832, AUC: 0.7235282363641169, F1: 0.5563435776201734, MCC: 0.5594867358262909
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.46051087082265957, 'loss_function': 'Logloss'}
+Accuracy score: 0.9761771488704296, AUC: 0.7247116903884172, F1: 0.5707946752722872, MCC: 0.5797743753199885
+Params: {'depth': 9.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.1881880251905896, 'loss_function': 'Logloss'}
+Accuracy score: 0.9764346326937285, AUC: 0.7154043849904022, F1: 0.5626428423020984, MCC: 0.5785115562173436
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.32754255195360993, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9763338781541768, AUC: 0.7260310098441145, F1: 0.5737903225806451, MCC: 0.5828689890222637
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 6.0, 'learning_rate': 0.32780076422696575, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9765465821821194, AUC: 0.7219625339348825, F1: 0.5713116431348476, MCC: 0.5837984671124947
+Params: {'depth': 7.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.3656019160735412, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9764794124890849, AUC: 0.7250230466510525, F1: 0.5740928441110886, MCC: 0.5844702541384593
+Params: {'depth': 9.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.29260962631407555, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9754718670935674, AUC: 0.7067030412788644, F1: 0.5428750260796995, MCC: 0.5583752380383257
+Params: {'depth': 9.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.3854031025656777, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.975953249893648, AUC: 0.7117501580322629, F1: 0.5536159600997506, MCC: 0.5688615892734366
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.3149750654413512, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9764682175402458, AUC: 0.7213028742070339, F1: 0.5697912402783464, MCC: 0.5822243430432766
+Params: {'depth': 7.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 5.0, 'learning_rate': 0.2157367324060722, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9765129973356022, AUC: 0.7230284936945478, F1: 0.5721859706362153, MCC: 0.5838666197769832
+Params: {'depth': 10.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 5.0, 'learning_rate': 0.2763089413735945, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9764682175402458, AUC: 0.7149574873619634, F1: 0.5624479600333057, MCC: 0.5788167777813188
+Params: {'depth': 7.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 1.0, 'learning_rate': 0.25566864195818834, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9766921165170275, AUC: 0.721573632873047, F1: 0.5723089564502877, MCC: 0.585859949122061
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 7.0, 'learning_rate': 0.1635060625054459, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9762443185634642, AUC: 0.7157700874255964, F1: 0.5612076095947065, MCC: 0.5756862486317628
+Params: {'depth': 7.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 3.0, 'learning_rate': 0.3525148773109673, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9759980296890043, AUC: 0.716106791577489, F1: 0.5592105263157894, MCC: 0.5720447427509333
+Params: {'depth': 8.0, 'eval_metric': 'MCC', 'l2_leaf_reg': 4.0, 'learning_rate': 0.4032982480002003, 'loss_function': 'CrossEntropy'}
+Accuracy score: 0.9765465821821194, AUC: 0.7239744858613681, F1: 0.5735802971707714, MCC: 0.5849046916524057
+100%|100/100 [16:54:58<00:00, 608.98s/it, best loss: 0.27342532356124327]
+{'depth': 7.0, 'eval_metric': 1, 'l2_leaf_reg': 2.0, 'learning_rate': 0.3668666368559461, 'loss_function': 1}
