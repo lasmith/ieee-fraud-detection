@@ -41,6 +41,14 @@ def get_lbo_pools(df_train:DataFrame):
     return X, y, X_valid, y_valid
 
 def get_catboost_pools(X, y, X_valid, y_valid):
+    """
+    Convert data sets into catboost specific Pool's
+    :param X: The training feature set
+    :param y: The training target (to predict)
+    :param X_valid: The validation feature set
+    :param y_valid: The validation target
+    :return: train_pool, validate_pool - Catboost wrappers around the training / validation data
+    """
     categorical_features_indices = get_categorical_cols(X)
     train_pool = Pool(X, y, cat_features=categorical_features_indices)
     validate_pool = Pool(X_valid, y_valid, cat_features=categorical_features_indices)

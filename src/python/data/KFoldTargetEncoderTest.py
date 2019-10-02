@@ -4,6 +4,12 @@ from data.KFoldTargetEncoderTrain import KFOLD_TARGET_ENC_COL_POSTFIX
 
 
 class KFoldTargetEncoderTest(base.BaseEstimator, base.TransformerMixin):
+    """
+    Out of fold target encoding for the test data set. This requires a pre-encoded training data set
+
+    Code adapted from here to handle multiple columns:
+      https://medium.com/@pouryaayria/k-fold-target-encoding-dfe9a594874b
+    """
 
     def __init__(self, train, colNames):
         self.train = train

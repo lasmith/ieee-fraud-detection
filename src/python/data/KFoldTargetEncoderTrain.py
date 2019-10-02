@@ -8,6 +8,12 @@ KFOLD_TARGET_ENC_COL_POSTFIX = '_Kfold_Target_Enc'
 
 
 class KFoldTargetEncoderTrain(base.BaseEstimator, base.TransformerMixin):
+    """
+    Out of fold target encoding for the training data set.
+
+    Code adapted from here to handle multiple columns:
+      https://medium.com/@pouryaayria/k-fold-target-encoding-dfe9a594874b
+    """
     logger = logging.getLogger(__name__)
 
     def __init__(self, colnames, targetName, n_fold=5, verbosity=True, discardOriginal_col=False):

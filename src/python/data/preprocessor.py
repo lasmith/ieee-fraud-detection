@@ -13,6 +13,16 @@ us_emails = ['gmail', 'net', 'edu']
 
 
 def preprocess(data_dir:str):
+    """
+    Preprocess the data. This assumes we have two data set transactions and identity split into train / test sets. The
+    basic preprocess takes the form
+    1. Combine TX / identity into one data set
+    2. Engineer features such as dates split out into hours / days etc and some mean transaction amounts grouped by various features
+    3. Add out of fold target encoded categorical fields
+
+    :param data_dir: Containing the data sets (as per the kaggle file names)
+    :return: 2 dataframes, train / test
+    """
     train_identity = pd.read_csv(data_dir + '/train_identity.csv')
     train_transaction = pd.read_csv(data_dir + '/train_transaction.csv')
     test_identity = pd.read_csv(data_dir + '/test_identity.csv')
@@ -28,6 +38,7 @@ def preprocess(data_dir:str):
     df_train = df_train.replace(np.nan, '', regex=True)
     df_test = df_test.replace(np.nan, '', regex=True)
 
+    # Target encode some of the categorical
     cols_to_target_encode = ['P_emaildomain_bin', 'card1', 'card2', 'card3', 'card4', 'addr1', 'addr2']
     encoder = KFoldTargetEncoderTrain(cols_to_target_encode, 'isFraud', n_fold=5)
     df_train_enc = encoder.fit_transform(df_train)
