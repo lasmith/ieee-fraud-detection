@@ -3,6 +3,9 @@ import numpy as np
 import pandas as pd
 from pandas import DataFrame
 
+from data.KFoldTargetEncoderTest import KFoldTargetEncoderTest
+from data.KFoldTargetEncoderTrain import KFoldTargetEncoderTrain, KFOLD_TARGET_ENC_COL_POSTFIX
+
 START_DATE = datetime.datetime.strptime('2017-11-30', '%Y-%m-%d')
 
 emails = {'gmail': 'google', 'att.net': 'att', 'twc.com': 'spectrum', 'scranton.edu': 'other', 'optonline.net': 'other', 'hotmail.co.uk': 'microsoft', 'comcast.net': 'other', 'yahoo.com.mx': 'yahoo', 'yahoo.fr': 'yahoo', 'yahoo.es': 'yahoo', 'charter.net': 'spectrum', 'live.com': 'microsoft', 'aim.com': 'aol', 'hotmail.de': 'microsoft', 'centurylink.net': 'centurylink', 'gmail.com': 'google', 'me.com': 'apple', 'earthlink.net': 'other', 'gmx.de': 'other', 'web.de': 'other', 'cfl.rr.com': 'other', 'hotmail.com': 'microsoft', 'protonmail.com': 'other', 'hotmail.fr': 'microsoft', 'windstream.net': 'other', 'outlook.es': 'microsoft', 'yahoo.co.jp': 'yahoo', 'yahoo.de': 'yahoo', 'servicios-ta.com': 'other', 'netzero.net': 'other', 'suddenlink.net': 'other', 'roadrunner.com': 'other', 'sc.rr.com': 'other', 'live.fr': 'microsoft', 'verizon.net': 'yahoo', 'msn.com': 'microsoft', 'q.com': 'centurylink', 'prodigy.net.mx': 'att', 'frontier.com': 'yahoo', 'anonymous.com': 'other', 'rocketmail.com': 'yahoo', 'sbcglobal.net': 'att', 'frontiernet.net': 'yahoo', 'ymail.com': 'yahoo', 'outlook.com': 'microsoft', 'mail.com': 'other', 'bellsouth.net': 'other', 'embarqmail.com': 'centurylink', 'cableone.net': 'other', 'hotmail.es': 'microsoft', 'mac.com': 'apple', 'yahoo.co.uk': 'yahoo', 'netzero.com': 'other', 'yahoo.com': 'yahoo', 'live.com.mx': 'microsoft', 'ptd.net': 'other', 'cox.net': 'other', 'aol.com': 'aol', 'juno.com': 'other', 'icloud.com': 'apple'}
@@ -24,7 +27,14 @@ def preprocess(data_dir:str):
     # Some fixes to remove NaNs
     df_train = df_train.replace(np.nan, '', regex=True)
     df_test = df_test.replace(np.nan, '', regex=True)
-    return df_train, df_test
+
+    cols_to_target_encode = ['P_emaildomain_bin', 'card1', 'card2', 'card3', 'card4', 'addr1', 'addr2']
+    encoder = KFoldTargetEncoderTrain(cols_to_target_encode, 'isFraud', n_fold=5)
+    df_train_enc = encoder.fit_transform(df_train)
+
+    encoder_test = KFoldTargetEncoderTest(df_train_enc, cols_to_target_encode)
+    df_test_enc = encoder_test.fit_transform(df_test)
+    return df_train_enc, df_test_enc
 
 
 def add_means(df:DataFrame, in_col, col_to_aggregate='TransactionAmt'):
@@ -90,10 +100,11 @@ def engineer_features(df:DataFrame, engineer_identity_features=True):
                        'id_11', 'id_12', 'id_13', 'id_14', 'id_15', 'id_17', 'id_19', 'id_20', 'id_30', 'id_31', 'id_32', 'id_33',
                        'id_36', 'id_37', 'id_38', 'DeviceType', 'DeviceInfo']
     cols_to_drop = [col for col in df.columns if col not in useful_features]
-    cols_to_drop.remove('isFraud')
+    if 'isFraud' in cols_to_drop:
+        cols_to_drop.remove('isFraud')
     cols_to_drop.remove('TransactionID')
     df.drop(cols_to_drop, axis=1)
-    #df.drop('Date',axis=1, inplace=True)
+    df.drop('Date',axis=1, inplace=True)
 
     if engineer_identity_features:
         for x in range(1, 12):

@@ -3,6 +3,8 @@ import numpy as np
 from catboost import Pool
 from pandas import DataFrame
 
+from data.preprocessor import get_categorical_cols
+
 
 def get_x_y(df):
     """
@@ -22,7 +24,7 @@ def gen_seeds(seed=0):
     random.seed(seed)
     np.random.seed(seed)
 
-def get_lbo_pools(df_train:DataFrame, categorical_features_indices):
+def get_lbo_pools(df_train:DataFrame):
     """
     Split the data frame into a last block out by date. The training data is split by time so that the last month
     is used as the validation set. This is a common practice for time series as going forward you will have to predict
@@ -33,11 +35,13 @@ def get_lbo_pools(df_train:DataFrame, categorical_features_indices):
     """
     main_train_set = df_train[df_train['DT_M']<(df_train['DT_M'].max())].reset_index(drop=True)
     validation_set = df_train[df_train['DT_M']==df_train['DT_M'].max()].reset_index(drop=True)
-
     print ("Training shape: %s, validation shape: %s"%(main_train_set.shape, validation_set.shape))
     X, y = get_x_y(main_train_set)
     X_valid, y_valid = get_x_y(validation_set)
+    return X, y, X_valid, y_valid
+
+def get_catboost_pools(X, y, X_valid, y_valid):
+    categorical_features_indices = get_categorical_cols(X)
     train_pool = Pool(X, y, cat_features=categorical_features_indices)
     validate_pool = Pool(X_valid, y_valid, cat_features=categorical_features_indices)
     return train_pool, validate_pool
-
